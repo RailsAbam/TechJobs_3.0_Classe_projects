@@ -1,0 +1,32 @@
+<h1>What is Path Variable</h4>
+<p>PATH is an environment variable on Unix-like operating systems, DOS, OS/2, and Microsoft Windows, specifying a set of directories where executable programs are located.</p>
+
+<h3>Why would you want to create an environment variable?</h3>
+<p>Environment variables can be useful when you want to override default settings, or when you need to manage new settings that your system has no reason to create on its own</p>
+
+<h5>How do you permanently save environment varible?</h5>
+<p>Environment variables can be useful when you want to override default settings, or when you need to manage new settings that your system has no reason to create on its own</p>
+
+<h6>What is a process?</h6>
+<p>An instance of a running program is called a process. Every time you run a shell command, a program is run and a process is created for it. </p>
+
+<h4>How do you list all processes running on your machine?</h4>
+<p>You type this in the command line: ps</p>
+
+<h3>What is a PID?</h3>
+<p>The PID column is a number that uniquely identifies the process. This PID will be useful very soon when we learn how to stop a process</p>
+
+<h1>How do you terminate a process?</h1>
+<p>You open another terminal and run the command: kill 3302 </p>
+
+<h5>What is the difference between kill and kill -9?</h5>
+<p>Whenever you try to kill a process, a signal is sent to that process telling it to terminate. By default that signal is the TERM signal. However, if a program has crashed or is frozen for some reason, it's possible that it won't pick up on that signal and the process may not terminate. The -9 flag sends a different signal to the process: according to the manual for kill, -9 represents the KILL signal, which is a "non-catchable, non-ignorable kill." If killing a process doesn't work, try killing with -9 and see if that gets the job done.</p>
+
+<h2>What grep flag allows for case insensitive search?</h2>
+<p>grep -iF</p>
+
+<h2>What grep flag allows for a certain number of lines before the match?</h2>
+
+<h2>What grep flag allows for a certain number of lines around the match?</h2>
+<h6>What grep flag allows for full word search?</h6>
+<h5>What grep flag shows you the line number of a match?</h5>
