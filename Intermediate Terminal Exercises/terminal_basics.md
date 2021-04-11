@@ -24,6 +24,6 @@
 
 12.~ .
 
-13.ls \*
+13.ls .
 
 14.For example if a file is unwritable, rm will prompt you whether to remove that file or not, to avoid this and simply execute the operation. When you combine the -r and -f flags, it means that recursively and forcibly remove a directory.

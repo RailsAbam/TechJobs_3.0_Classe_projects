@@ -1,2 +1,1 @@
-# Project_Exercises-
-Project excerises.
+# Terminal Basics
